@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Usuários</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de Usuários</h1>
+
+    <!-- Campo de pesquisa -->
+    <input type="text" id="search" placeholder="Digite o nome do usuário" oninput="searchUser()"><!--O oninput despara o evento sempre que algo é digitado no input onde ele se encontra-->
+    
+    <!-- Lista de usuários encontrados -->
+    <div id="user-list"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
